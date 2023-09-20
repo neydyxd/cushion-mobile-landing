@@ -1,0 +1,7 @@
+@import url(./vendor/normolize.css);
+@import url(./vendor/fonts.css);
+@import url(./Components/App.css);
+@import url(./Components/Header/Header.css);
+@import url(./Components/UnderHeader/underHeader.css);
+@import url(./Components/Banner/Baner.css);
+@import url(./Components/Shopper/Shopper.css);

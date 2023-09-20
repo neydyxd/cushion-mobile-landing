@@ -1,0 +1,63 @@
+.banner{
+    background-image: url('../../images/banner.png');
+    background-size: cover;
+    width: 390px;
+    height: 281px;
+    position: relative;
+}
+
+.banner__timer{
+    position: absolute;
+    width: 103px;
+    height: 58px;
+    background-color: #F19D2F;
+    bottom: 14px;
+    left: 13px;
+    border-radius: 7.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__timer-title{
+    font-family: Gotham;
+    color: white;
+    font-weight: 700;
+    font-size: 10.6px;
+    margin: 9px 0 10px 0;
+}
+
+.banner__timer-item{
+    color: white;
+    font-family: Gotham;
+    font-weight: 700;
+    font-size: 21.25px;
+    margin-bottom: 9px;
+}
+
+.banner__sale{
+    width: 116px;
+    min-height: 58px;
+    position: absolute;
+    bottom: 14px;
+    right: 13px;
+    background-color: #37D997;
+    border-radius: 5.68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Gotham;
+    font-weight: 700;
+}
+
+.banner__sale_title{
+    margin: 6.35px 0 8.11px 0;
+    text-decoration: line-through;
+	text-decoration-color: #E27500;
+    text-decoration-thickness: 3.51px;
+}
+
+.banner__sale_subtitle{
+    margin: 0 0 5.54px 0;
+}

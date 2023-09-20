@@ -1,0 +1,33 @@
+.under-header{
+    background-color: #FFD1AC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px 0 19px 0;
+}
+
+.under-header__logo-box{
+    position: relative;
+}
+
+.under-header__logo{
+    width: 218px;
+    object-fit: cover;
+}
+
+.under-header__radius{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #F19D2F;
+    top: 22%;
+    right: 54.5px;
+}
+
+.under-header__title{
+    margin: 0;
+    font-family: Gotham;
+    margin-top: 10px;
+    font-size: 13.47PX;
+}

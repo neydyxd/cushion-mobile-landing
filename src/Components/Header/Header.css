@@ -1,0 +1,16 @@
+.header{
+    height: 33px;
+    background-color: #F19D2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header__title{
+    font-family: Gotham;
+    font-size: 12.69px;
+    line-height: 12.15px;
+    font-weight: 400;
+}
+

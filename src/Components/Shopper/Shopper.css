@@ -1,0 +1,165 @@
+.shoper{
+    width: 358px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 11px;
+}
+
+.shoper__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoper__mark{
+    margin: 0;
+    font-family: Gotham;
+    font-weight: 400;
+    font-size: 12.07px;
+}
+
+.shoper__sale{
+    margin: 0;
+    font-family: Gotham;
+    font-weight: 400;
+    font-size: 12.07px;
+    color: #37D997;
+    text-decoration: underline;
+}
+
+.shoper__title{
+    text-transform: uppercase;
+    font-family: Gotham;
+    font-size: 19.17px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.shoper__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoper__list-item{
+    width: 80px;
+    height: 66px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shoper__info-title{
+    font-family: Gotham;
+    font-weight: 700;
+    font-size: 15.29px;
+}
+
+.shoper__info-text{
+    font-family: Gotham;
+    font-weight: 400;
+    font-size: 15.29px;
+}
+
+.shoper__rating{
+    display: flex;
+    width: 126px;
+    justify-content: space-between;
+}
+
+.shoper__stars-box{
+    display: flex;
+    width: 86px;
+    justify-content: space-between;
+}
+
+.shoper__rating-number{
+    margin: 0;
+    font-family: Gotham;
+    font-weight: 400;
+    font-size: 15.29px;
+}
+
+.shoper__stars{
+    width: 13px;
+    height: 14px;
+    object-fit: cover;
+}
+
+.shoper__menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoper__choice-title{
+    margin: 0 0 4px 0;
+    text-align: center;
+    font-family: Gotham;
+    font-size: 10px;
+}
+
+.shoper__choice-button{
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: Gotham;
+    font-weight: 700;
+    font-size: 21.69px;
+    border: none;
+    padding: 0;
+}
+
+.shoper__choice-button:hover{
+    border: 1px solid black;
+}
+
+.shoper__dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.shoper__dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.shoper__dropdown:hover .shoper__dropdown-content {display: block;}
+
+.shoper__dropdown-item{
+    font-family: Gotham;
+}
+
+.shoper__dropdown-item:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.shoper__list-item:hover{
+    opacity: 0.6;
+}
+
+.shoper__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 356px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #37D997;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-family: Gotham;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.shoper__btn:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
